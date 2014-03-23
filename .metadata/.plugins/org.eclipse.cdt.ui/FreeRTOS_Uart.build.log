@@ -1,9 +1,9 @@
-13:31:23 **** Incremental Build of configuration Debug for project FreeRTOS_Uart ****
+14:22:16 **** Incremental Build of configuration Debug for project FreeRTOS_Uart ****
 make all 
-Building file: ../src/flash.c
+Building file: ../src/main.c
 Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"../include" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings/demo/Common" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings/demo/Common/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings/board" -I/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3/include -I/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3/include-fixed -I/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include -std=gnu11 -MMD -MP -MF"src/flash.d" -MT"src/flash.d" -c -o "src/flash.o" "../src/flash.c"
-Finished building: ../src/flash.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"../include" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings/demo/Common" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings/demo/Common/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings/board" -I/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3/include -I/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3/include-fixed -I/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.d" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
  
 Building target: FreeRTOS_Uart.elf
 Invoking: Cross ARM C Linker
@@ -17,9 +17,9 @@ Finished building: FreeRTOS_Uart.bin
 Invoking: Cross ARM GNU Print Size
 arm-none-eabi-size --format=berkeley "FreeRTOS_Uart.elf"
    text	   data	    bss	    dec	    hex	filename
-  11056	     36	  77460	  88552	  159e8	FreeRTOS_Uart.elf
+  10964	     36	  77456	  88456	  15988	FreeRTOS_Uart.elf
 Finished building: FreeRTOS_Uart.siz
  
 
-13:31:24 Build Finished (took 512ms)
+14:22:16 Build Finished (took 367ms)
 
