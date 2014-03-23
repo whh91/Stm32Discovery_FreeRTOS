@@ -1,0 +1,11 @@
+02:14:42 **** Incremental Build of configuration Debug for project blinkLED ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "blinkLED.elf"
+   text	   data	    bss	    dec	    hex	filename
+  25084	   2224	    324	  27632	   6bf0	blinkLED.elf
+Finished building: blinkLED.siz
+ 
+
+02:14:42 Build Finished (took 72ms)
+

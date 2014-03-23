@@ -1,0 +1,13 @@
+16:13:55 **** Build of configuration Debug for project test3 ****
+make 
+Building file: ../src/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I/home/jerzy/workspace_stm32/test3/include -I/home/jerzy/workspace_stm32/test3/libs/CMSIS/include -I/home/jerzy/workspace_stm32/test3/libs/StdPeriph/include -I/home/jerzy/workspace_stm32/test3/libs/misc/include -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.d" -c -o "src/main.o" "../src/main.c"
+../src/main.c:1:23: fatal error: stm32f4xx.h: No such file or directory
+ #include "stm32f4xx.h"
+                       ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+
+16:13:56 Build Finished (took 113ms)
+

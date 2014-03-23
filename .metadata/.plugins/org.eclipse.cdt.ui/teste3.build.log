@@ -1,0 +1,13 @@
+02:14:42 **** Incremental Build of configuration Default for project teste3 ****
+make all 
+arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 4.8.3 20131129 (release) [ARM/embedded-4_8-branch revision 205641]
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+   text	   data	    bss	    dec	    hex	filename
+  11580	   1108	  78192	  90880	  16300	obj/STM32F4_Test.elf
+
+02:14:42 Build Finished (took 112ms)
+

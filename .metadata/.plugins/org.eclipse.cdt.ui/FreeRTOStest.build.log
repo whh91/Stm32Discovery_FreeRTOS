@@ -1,0 +1,6 @@
+02:44:31 **** Build of configuration Debug for project FreeRTOStest ****
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+02:44:31 Build Finished (took 61ms)
+

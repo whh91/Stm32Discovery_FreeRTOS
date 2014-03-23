@@ -1,0 +1,389 @@
+02:39:31 **** Build of configuration Debug for project test2 ****
+make all 
+Building file: ../Source/portable/MemMang/heap_1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"../include" -I"/home/jerzy/workspace_stm32/test2/App/STM32F4-Discovery/Libraries/CMSIS/Include" -I"/home/jerzy/workspace_stm32/test2/App/STM32F4-Discovery/Libraries/CMSIS/ST/STM32F4xx/Include" -I"/home/jerzy/workspace_stm32/test2/Debug/App/STM32F4-Discovery/Libraries" -I"/home/jerzy/workspace_stm32/test2/App/STM32F4-Discovery/Libraries" -I"/home/jerzy/workspace_stm32/test2/App/STM32F4-Discovery" -I"/home/jerzy/workspace_stm32/test2/Source/include" -include"/home/jerzy/workspace_stm32/test2/Debug/sources.mk" -std=gnu11 -MMD -MP -MF"Source/portable/MemMang/heap_1.d" -MT"Source/portable/MemMang/heap_1.d" -c -o "Source/portable/MemMang/heap_1.o" "../Source/portable/MemMang/heap_1.c"
+In file included from <command-line>:0:0:
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:1: error: stray '##' in program
+ ################################################################################
+ ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:3: error: stray '##' in program
+ ################################################################################
+   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:5: error: stray '##' in program
+ ################################################################################
+     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:7: error: stray '##' in program
+ ################################################################################
+       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:9: error: stray '##' in program
+ ################################################################################
+         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:11: error: stray '##' in program
+ ################################################################################
+           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:13: error: stray '##' in program
+ ################################################################################
+             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:15: error: stray '##' in program
+ ################################################################################
+               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:17: error: stray '##' in program
+ ################################################################################
+                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:19: error: stray '##' in program
+ ################################################################################
+                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:21: error: stray '##' in program
+ ################################################################################
+                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:23: error: stray '##' in program
+ ################################################################################
+                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:25: error: stray '##' in program
+ ################################################################################
+                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:27: error: stray '##' in program
+ ################################################################################
+                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:29: error: stray '##' in program
+ ################################################################################
+                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:31: error: stray '##' in program
+ ################################################################################
+                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:33: error: stray '##' in program
+ ################################################################################
+                                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:35: error: stray '##' in program
+ ################################################################################
+                                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:37: error: stray '##' in program
+ ################################################################################
+                                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:39: error: stray '##' in program
+ ################################################################################
+                                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:41: error: stray '##' in program
+ ################################################################################
+                                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:43: error: stray '##' in program
+ ################################################################################
+                                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:45: error: stray '##' in program
+ ################################################################################
+                                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:47: error: stray '##' in program
+ ################################################################################
+                                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:49: error: stray '##' in program
+ ################################################################################
+                                                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:51: error: stray '##' in program
+ ################################################################################
+                                                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:53: error: stray '##' in program
+ ################################################################################
+                                                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:55: error: stray '##' in program
+ ################################################################################
+                                                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:57: error: stray '##' in program
+ ################################################################################
+                                                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:59: error: stray '##' in program
+ ################################################################################
+                                                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:61: error: stray '##' in program
+ ################################################################################
+                                                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:63: error: stray '##' in program
+ ################################################################################
+                                                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:65: error: stray '##' in program
+ ################################################################################
+                                                                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:67: error: stray '##' in program
+ ################################################################################
+                                                                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:69: error: stray '##' in program
+ ################################################################################
+                                                                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:71: error: stray '##' in program
+ ################################################################################
+                                                                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:73: error: stray '##' in program
+ ################################################################################
+                                                                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:75: error: stray '##' in program
+ ################################################################################
+                                                                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:77: error: stray '##' in program
+ ################################################################################
+                                                                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:1:79: error: stray '##' in program
+ ################################################################################
+                                                                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:2:3: error: invalid preprocessing directive #Automatically
+ # Automatically-generated file. Do not edit!
+   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:1: error: stray '##' in program
+ ################################################################################
+ ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:3: error: stray '##' in program
+ ################################################################################
+   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:5: error: stray '##' in program
+ ################################################################################
+     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:7: error: stray '##' in program
+ ################################################################################
+       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:9: error: stray '##' in program
+ ################################################################################
+         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:11: error: stray '##' in program
+ ################################################################################
+           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:13: error: stray '##' in program
+ ################################################################################
+             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:15: error: stray '##' in program
+ ################################################################################
+               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:17: error: stray '##' in program
+ ################################################################################
+                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:19: error: stray '##' in program
+ ################################################################################
+                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:21: error: stray '##' in program
+ ################################################################################
+                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:23: error: stray '##' in program
+ ################################################################################
+                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:25: error: stray '##' in program
+ ################################################################################
+                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:27: error: stray '##' in program
+ ################################################################################
+                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:29: error: stray '##' in program
+ ################################################################################
+                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:31: error: stray '##' in program
+ ################################################################################
+                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:33: error: stray '##' in program
+ ################################################################################
+                                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:35: error: stray '##' in program
+ ################################################################################
+                                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:37: error: stray '##' in program
+ ################################################################################
+                                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:39: error: stray '##' in program
+ ################################################################################
+                                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:41: error: stray '##' in program
+ ################################################################################
+                                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:43: error: stray '##' in program
+ ################################################################################
+                                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:45: error: stray '##' in program
+ ################################################################################
+                                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:47: error: stray '##' in program
+ ################################################################################
+                                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:49: error: stray '##' in program
+ ################################################################################
+                                                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:51: error: stray '##' in program
+ ################################################################################
+                                                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:53: error: stray '##' in program
+ ################################################################################
+                                                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:55: error: stray '##' in program
+ ################################################################################
+                                                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:57: error: stray '##' in program
+ ################################################################################
+                                                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:59: error: stray '##' in program
+ ################################################################################
+                                                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:61: error: stray '##' in program
+ ################################################################################
+                                                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:63: error: stray '##' in program
+ ################################################################################
+                                                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:65: error: stray '##' in program
+ ################################################################################
+                                                                 ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:67: error: stray '##' in program
+ ################################################################################
+                                                                   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:69: error: stray '##' in program
+ ################################################################################
+                                                                     ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:71: error: stray '##' in program
+ ################################################################################
+                                                                       ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:73: error: stray '##' in program
+ ################################################################################
+                                                                         ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:75: error: stray '##' in program
+ ################################################################################
+                                                                           ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:77: error: stray '##' in program
+ ################################################################################
+                                                                             ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:3:79: error: stray '##' in program
+ ################################################################################
+                                                                               ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:5:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before ':' token
+ ELF_SRCS := 
+          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:18:3: error: invalid preprocessing directive #Every
+ # Every subdirectory with source files must be described here
+   ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:64:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/src/netif \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:65:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/src/netif/ppp \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:66:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/src/core \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:67:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/src/core/snmp \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:68:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/src/core/ipv6 \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:69:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/src/core/ipv4 \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:70:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/src/api \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:71:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/ports/win32 \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:72:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap \
+                          ^
+/home/jerzy/workspace_stm32/test2/Debug/sources.mk:73:26: error: too many decimal points in number
+ App/Common/ethernet/lwip-1.4.0/ports/MicroBlaze-Ethernet-Lite \
+                          ^
+In file included from /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:11:0,
+                 from ../Source/portable/MemMang/heap_1.c:74:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:75:6: error: unknown type name 'size_t'
+ _PTR _EXFUN(bsearch,(const _PTR __key,
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:75:6: error: unknown type name 'size_t'
+ _PTR _EXFUN(bsearch,(const _PTR __key,
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:80:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(calloc,(size_t __nmemb, size_t __size));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:80:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(calloc,(size_t __nmemb, size_t __size));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:94:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(malloc,(size_t __size));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:95:5: error: unknown type name 'size_t'
+ int _EXFUN(mblen,(const char *, size_t));
+     ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:96:5: error: unknown type name 'size_t'
+ int _EXFUN(_mblen_r,(struct _reent *, const char *, size_t, _mbstate_t *));
+     ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:97:5: error: unknown type name 'size_t'
+ int _EXFUN(mbtowc,(wchar_t *, const char *, size_t));
+     ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:98:5: error: unknown type name 'size_t'
+ int _EXFUN(_mbtowc_r,(struct _reent *, wchar_t *, const char *, size_t, _mbstate_t *));
+     ^
+In file included from ../Source/portable/MemMang/heap_1.c:74:0:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:101:1: error: unknown type name 'size_t'
+ size_t _EXFUN(mbstowcs,(wchar_t *, const char *, size_t));
+ ^
+In file included from /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:11:0,
+                 from ../Source/portable/MemMang/heap_1.c:74:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:101:8: error: unknown type name 'size_t'
+ size_t _EXFUN(mbstowcs,(wchar_t *, const char *, size_t));
+        ^
+In file included from ../Source/portable/MemMang/heap_1.c:74:0:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:102:1: error: unknown type name 'size_t'
+ size_t _EXFUN(_mbstowcs_r,(struct _reent *, wchar_t *, const char *, size_t, _mbstate_t *));
+ ^
+In file included from /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:11:0,
+                 from ../Source/portable/MemMang/heap_1.c:74:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:102:8: error: unknown type name 'size_t'
+ size_t _EXFUN(_mbstowcs_r,(struct _reent *, wchar_t *, const char *, size_t, _mbstate_t *));
+        ^
+In file included from ../Source/portable/MemMang/heap_1.c:74:0:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:103:1: error: unknown type name 'size_t'
+ size_t _EXFUN(wcstombs,(char *, const wchar_t *, size_t));
+ ^
+In file included from /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:11:0,
+                 from ../Source/portable/MemMang/heap_1.c:74:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:103:8: error: unknown type name 'size_t'
+ size_t _EXFUN(wcstombs,(char *, const wchar_t *, size_t));
+        ^
+In file included from ../Source/portable/MemMang/heap_1.c:74:0:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:104:1: error: unknown type name 'size_t'
+ size_t _EXFUN(_wcstombs_r,(struct _reent *, char *, const wchar_t *, size_t, _mbstate_t *));
+ ^
+In file included from /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:11:0,
+                 from ../Source/portable/MemMang/heap_1.c:74:
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:104:8: error: unknown type name 'size_t'
+ size_t _EXFUN(_wcstombs_r,(struct _reent *, char *, const wchar_t *, size_t, _mbstate_t *));
+        ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:121:7: error: unknown type name 'size_t'
+ _VOID _EXFUN(qsort,(_PTR __base, size_t __nmemb, size_t __size, __compar_fn_t _compar));
+       ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:121:7: error: unknown type name 'size_t'
+ _VOID _EXFUN(qsort,(_PTR __base, size_t __nmemb, size_t __size, __compar_fn_t _compar));
+       ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:123:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(realloc,(_PTR __r, size_t __size));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:125:6: error: unknown type name 'size_t'
+ _PTR _EXFUN(reallocf,(_PTR __r, size_t __size));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:154:6: error: unknown type name 'size_t'
+ _PTR _EXFUN(_reallocf_r,(struct _reent *, _PTR, size_t));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:220:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(_malloc_r,(struct _reent *, size_t));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:221:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(_calloc_r,(struct _reent *, size_t, size_t));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:221:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(_calloc_r,(struct _reent *, size_t, size_t));
+      ^
+/home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/include/stdlib.h:223:6: error: unknown type name 'size_t'
+ _PTR _EXFUN_NOTHROW(_realloc_r,(struct _reent *, _PTR, size_t));
+      ^
+In file included from /home/jerzy/workspace_stm32/test2/App/STM32F4-Discovery/Libraries/CMSIS/ST/STM32F4xx/Include/stm32f4xx.h:6965:0,
+                 from /home/jerzy/workspace_stm32/test2/App/STM32F4-Discovery/FreeRTOSConfig.h:83,
+                 from /home/jerzy/workspace_stm32/test2/Source/include/FreeRTOS.h:79,
+                 from ../Source/portable/MemMang/heap_1.c:81:
+../include/stm32f4xx_conf.h:34:27: fatal error: stm32f4xx_adc.h: No such file or directory
+ #include "stm32f4xx_adc.h"
+                           ^
+compilation terminated.
+make: *** [Source/portable/MemMang/heap_1.o] Error 1
+
+02:39:31 Build Finished (took 461ms)
+

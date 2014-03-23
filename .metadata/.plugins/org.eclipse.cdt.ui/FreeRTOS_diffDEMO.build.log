@@ -1,0 +1,14 @@
+16:12:33 **** Incremental Build of configuration Debug for project FreeRTOS_diffDEMO ****
+make all 
+Building file: ../startup/system_stm32f4xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/board" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/Libraries/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/config" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/Debug" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/Libraries" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/settings" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/startup" -MMD -MP -MF"startup/system_stm32f4xx.d" -MT"startup/system_stm32f4xx.d" -c -o "startup/system_stm32f4xx.o" "../startup/system_stm32f4xx.c"
+In file included from ../startup/system_stm32f4xx.c:117:0:
+/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/Libraries/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:240:81: fatal error: core_cm4.h: No such file or directory
+ #include "core_cm4.h"             /* Cortex-M4 processor and core peripherals */
+                                                                                 ^
+compilation terminated.
+make: *** [startup/system_stm32f4xx.o] Error 1
+
+16:12:33 Build Finished (took 65ms)
+

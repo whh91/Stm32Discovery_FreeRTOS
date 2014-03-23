@@ -1,0 +1,11 @@
+01:18:53 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../Source/croutine.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Source/croutine.d" -MT"Source/croutine.d" -o"Source/croutine.o" "../Source/croutine.c"
+../Source/croutine.c:66:22: fatal error: FreeRTOS.h: No such file or directory
+compilation terminated.
+make: *** [Source/croutine.o] Error 1
+
+01:18:54 Build Finished (took 417ms)
+

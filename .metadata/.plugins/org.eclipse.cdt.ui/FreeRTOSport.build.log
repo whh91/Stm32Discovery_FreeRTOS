@@ -1,0 +1,13 @@
+17:11:04 **** Incremental Build of configuration Debug for project FreeRTOSport ****
+make all 
+Building file: ../src/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"../include" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -I"/home/jerzy/workspace_stm32/FreeRTOSport/src/FreeRTOS" -I"/home/jerzy/workspace_stm32/FreeRTOSport/Utilities" -I"/home/jerzy/workspace_stm32/FreeRTOSport/Utilities/STM32F4-Discovery" -I"/home/jerzy/workspace_stm32/FreeRTOSport/Utilities/Third_Party" -std=gnu11 -MMD -MP -MF"src/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.d" -MT"src/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.d" -c -o "src/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.o" "../src/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.c"
+../src/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.c:86:22: fatal error: FreeRTOS.h: No such file or directory
+ #include "FreeRTOS.h"
+                      ^
+compilation terminated.
+make: *** [src/FreeRTOS/Source/portable/oWatcom/16BitDOS/common/portcomn.o] Error 1
+
+17:11:04 Build Finished (took 262ms)
+

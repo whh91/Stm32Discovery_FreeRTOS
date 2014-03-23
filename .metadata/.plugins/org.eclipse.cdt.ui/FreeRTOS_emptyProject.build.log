@@ -1,0 +1,11 @@
+11:55:39 **** Build of configuration Debug for project FreeRTOS_emptyProject ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "FreeRTOS_emptyProject.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11056	     36	  77460	  88552	  159e8	FreeRTOS_emptyProject.elf
+Finished building: FreeRTOS_emptyProject.siz
+ 
+
+11:55:39 Build Finished (took 136ms)
+

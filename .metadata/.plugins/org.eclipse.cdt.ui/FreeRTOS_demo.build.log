@@ -1,0 +1,228 @@
+16:26:49 **** Incremental Build of configuration Debug for project FreeRTOS_demo ****
+make all 
+Building file: ../src/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"src/main.d" -MT"src/main.d" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../libs/misc/src/_sbrk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/misc/src/_sbrk.d" -MT"libs/misc/src/_sbrk.d" -c -o "libs/misc/src/_sbrk.o" "../libs/misc/src/_sbrk.c"
+Finished building: ../libs/misc/src/_sbrk.c
+ 
+Building file: ../libs/misc/src/_write.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/misc/src/_write.d" -MT"libs/misc/src/_write.d" -c -o "libs/misc/src/_write.o" "../libs/misc/src/_write.c"
+Finished building: ../libs/misc/src/_write.c
+ 
+Building file: ../libs/misc/src/trace_impl.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/misc/src/trace_impl.d" -MT"libs/misc/src/trace_impl.d" -c -o "libs/misc/src/trace_impl.o" "../libs/misc/src/trace_impl.c"
+Finished building: ../libs/misc/src/trace_impl.c
+ 
+Building file: ../libs/StdPeriph/src/misc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/misc.d" -MT"libs/StdPeriph/src/misc.d" -c -o "libs/StdPeriph/src/misc.o" "../libs/StdPeriph/src/misc.c"
+Finished building: ../libs/StdPeriph/src/misc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_adc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_adc.d" -MT"libs/StdPeriph/src/stm32f4xx_adc.d" -c -o "libs/StdPeriph/src/stm32f4xx_adc.o" "../libs/StdPeriph/src/stm32f4xx_adc.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_adc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_can.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_can.d" -MT"libs/StdPeriph/src/stm32f4xx_can.d" -c -o "libs/StdPeriph/src/stm32f4xx_can.o" "../libs/StdPeriph/src/stm32f4xx_can.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_can.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_crc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_crc.d" -MT"libs/StdPeriph/src/stm32f4xx_crc.d" -c -o "libs/StdPeriph/src/stm32f4xx_crc.o" "../libs/StdPeriph/src/stm32f4xx_crc.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_crc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_cryp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_cryp.d" -MT"libs/StdPeriph/src/stm32f4xx_cryp.d" -c -o "libs/StdPeriph/src/stm32f4xx_cryp.o" "../libs/StdPeriph/src/stm32f4xx_cryp.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_cryp.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_cryp_aes.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_cryp_aes.d" -MT"libs/StdPeriph/src/stm32f4xx_cryp_aes.d" -c -o "libs/StdPeriph/src/stm32f4xx_cryp_aes.o" "../libs/StdPeriph/src/stm32f4xx_cryp_aes.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_cryp_aes.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_cryp_des.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_cryp_des.d" -MT"libs/StdPeriph/src/stm32f4xx_cryp_des.d" -c -o "libs/StdPeriph/src/stm32f4xx_cryp_des.o" "../libs/StdPeriph/src/stm32f4xx_cryp_des.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_cryp_des.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_cryp_tdes.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_cryp_tdes.d" -MT"libs/StdPeriph/src/stm32f4xx_cryp_tdes.d" -c -o "libs/StdPeriph/src/stm32f4xx_cryp_tdes.o" "../libs/StdPeriph/src/stm32f4xx_cryp_tdes.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_cryp_tdes.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_dac.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_dac.d" -MT"libs/StdPeriph/src/stm32f4xx_dac.d" -c -o "libs/StdPeriph/src/stm32f4xx_dac.o" "../libs/StdPeriph/src/stm32f4xx_dac.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_dac.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_dbgmcu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_dbgmcu.d" -MT"libs/StdPeriph/src/stm32f4xx_dbgmcu.d" -c -o "libs/StdPeriph/src/stm32f4xx_dbgmcu.o" "../libs/StdPeriph/src/stm32f4xx_dbgmcu.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_dbgmcu.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_dcmi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_dcmi.d" -MT"libs/StdPeriph/src/stm32f4xx_dcmi.d" -c -o "libs/StdPeriph/src/stm32f4xx_dcmi.o" "../libs/StdPeriph/src/stm32f4xx_dcmi.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_dcmi.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_dma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_dma.d" -MT"libs/StdPeriph/src/stm32f4xx_dma.d" -c -o "libs/StdPeriph/src/stm32f4xx_dma.o" "../libs/StdPeriph/src/stm32f4xx_dma.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_dma.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_dma2d.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_dma2d.d" -MT"libs/StdPeriph/src/stm32f4xx_dma2d.d" -c -o "libs/StdPeriph/src/stm32f4xx_dma2d.o" "../libs/StdPeriph/src/stm32f4xx_dma2d.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_dma2d.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_exti.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_exti.d" -MT"libs/StdPeriph/src/stm32f4xx_exti.d" -c -o "libs/StdPeriph/src/stm32f4xx_exti.o" "../libs/StdPeriph/src/stm32f4xx_exti.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_exti.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_flash.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_flash.d" -MT"libs/StdPeriph/src/stm32f4xx_flash.d" -c -o "libs/StdPeriph/src/stm32f4xx_flash.o" "../libs/StdPeriph/src/stm32f4xx_flash.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_flash.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_fmc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_fmc.d" -MT"libs/StdPeriph/src/stm32f4xx_fmc.d" -c -o "libs/StdPeriph/src/stm32f4xx_fmc.o" "../libs/StdPeriph/src/stm32f4xx_fmc.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_fmc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_fsmc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_fsmc.d" -MT"libs/StdPeriph/src/stm32f4xx_fsmc.d" -c -o "libs/StdPeriph/src/stm32f4xx_fsmc.o" "../libs/StdPeriph/src/stm32f4xx_fsmc.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_fsmc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_gpio.d" -MT"libs/StdPeriph/src/stm32f4xx_gpio.d" -c -o "libs/StdPeriph/src/stm32f4xx_gpio.o" "../libs/StdPeriph/src/stm32f4xx_gpio.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_gpio.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_hash.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_hash.d" -MT"libs/StdPeriph/src/stm32f4xx_hash.d" -c -o "libs/StdPeriph/src/stm32f4xx_hash.o" "../libs/StdPeriph/src/stm32f4xx_hash.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_hash.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_hash_md5.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_hash_md5.d" -MT"libs/StdPeriph/src/stm32f4xx_hash_md5.d" -c -o "libs/StdPeriph/src/stm32f4xx_hash_md5.o" "../libs/StdPeriph/src/stm32f4xx_hash_md5.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_hash_md5.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_hash_sha1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_hash_sha1.d" -MT"libs/StdPeriph/src/stm32f4xx_hash_sha1.d" -c -o "libs/StdPeriph/src/stm32f4xx_hash_sha1.o" "../libs/StdPeriph/src/stm32f4xx_hash_sha1.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_hash_sha1.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_i2c.d" -MT"libs/StdPeriph/src/stm32f4xx_i2c.d" -c -o "libs/StdPeriph/src/stm32f4xx_i2c.o" "../libs/StdPeriph/src/stm32f4xx_i2c.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_i2c.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_iwdg.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_iwdg.d" -MT"libs/StdPeriph/src/stm32f4xx_iwdg.d" -c -o "libs/StdPeriph/src/stm32f4xx_iwdg.o" "../libs/StdPeriph/src/stm32f4xx_iwdg.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_iwdg.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_ltdc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_ltdc.d" -MT"libs/StdPeriph/src/stm32f4xx_ltdc.d" -c -o "libs/StdPeriph/src/stm32f4xx_ltdc.o" "../libs/StdPeriph/src/stm32f4xx_ltdc.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_ltdc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_pwr.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_pwr.d" -MT"libs/StdPeriph/src/stm32f4xx_pwr.d" -c -o "libs/StdPeriph/src/stm32f4xx_pwr.o" "../libs/StdPeriph/src/stm32f4xx_pwr.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_pwr.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_rcc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_rcc.d" -MT"libs/StdPeriph/src/stm32f4xx_rcc.d" -c -o "libs/StdPeriph/src/stm32f4xx_rcc.o" "../libs/StdPeriph/src/stm32f4xx_rcc.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_rcc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_rng.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_rng.d" -MT"libs/StdPeriph/src/stm32f4xx_rng.d" -c -o "libs/StdPeriph/src/stm32f4xx_rng.o" "../libs/StdPeriph/src/stm32f4xx_rng.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_rng.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_rtc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_rtc.d" -MT"libs/StdPeriph/src/stm32f4xx_rtc.d" -c -o "libs/StdPeriph/src/stm32f4xx_rtc.o" "../libs/StdPeriph/src/stm32f4xx_rtc.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_rtc.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_sai.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_sai.d" -MT"libs/StdPeriph/src/stm32f4xx_sai.d" -c -o "libs/StdPeriph/src/stm32f4xx_sai.o" "../libs/StdPeriph/src/stm32f4xx_sai.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_sai.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_sdio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_sdio.d" -MT"libs/StdPeriph/src/stm32f4xx_sdio.d" -c -o "libs/StdPeriph/src/stm32f4xx_sdio.o" "../libs/StdPeriph/src/stm32f4xx_sdio.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_sdio.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_spi.d" -MT"libs/StdPeriph/src/stm32f4xx_spi.d" -c -o "libs/StdPeriph/src/stm32f4xx_spi.o" "../libs/StdPeriph/src/stm32f4xx_spi.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_spi.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_syscfg.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_syscfg.d" -MT"libs/StdPeriph/src/stm32f4xx_syscfg.d" -c -o "libs/StdPeriph/src/stm32f4xx_syscfg.o" "../libs/StdPeriph/src/stm32f4xx_syscfg.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_syscfg.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_tim.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_tim.d" -MT"libs/StdPeriph/src/stm32f4xx_tim.d" -c -o "libs/StdPeriph/src/stm32f4xx_tim.o" "../libs/StdPeriph/src/stm32f4xx_tim.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_tim.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_usart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_usart.d" -MT"libs/StdPeriph/src/stm32f4xx_usart.d" -c -o "libs/StdPeriph/src/stm32f4xx_usart.o" "../libs/StdPeriph/src/stm32f4xx_usart.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_usart.c
+ 
+Building file: ../libs/StdPeriph/src/stm32f4xx_wwdg.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/StdPeriph/src/stm32f4xx_wwdg.d" -MT"libs/StdPeriph/src/stm32f4xx_wwdg.d" -c -o "libs/StdPeriph/src/stm32f4xx_wwdg.o" "../libs/StdPeriph/src/stm32f4xx_wwdg.c"
+Finished building: ../libs/StdPeriph/src/stm32f4xx_wwdg.c
+ 
+Building file: ../libs/CMSIS/src/startup_cm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/CMSIS/src/startup_cm.d" -MT"libs/CMSIS/src/startup_cm.d" -c -o "libs/CMSIS/src/startup_cm.o" "../libs/CMSIS/src/startup_cm.c"
+Finished building: ../libs/CMSIS/src/startup_cm.c
+ 
+Building file: ../libs/CMSIS/src/startup_stm32f4xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/CMSIS/src/startup_stm32f4xx.d" -MT"libs/CMSIS/src/startup_stm32f4xx.d" -c -o "libs/CMSIS/src/startup_stm32f4xx.o" "../libs/CMSIS/src/startup_stm32f4xx.c"
+Finished building: ../libs/CMSIS/src/startup_stm32f4xx.c
+ 
+Building file: ../libs/CMSIS/src/system_stm32f4xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/CMSIS/src/system_stm32f4xx.d" -MT"libs/CMSIS/src/system_stm32f4xx.d" -c -o "libs/CMSIS/src/system_stm32f4xx.o" "../libs/CMSIS/src/system_stm32f4xx.c"
+Finished building: ../libs/CMSIS/src/system_stm32f4xx.c
+ 
+Building file: ../libs/CMSIS/src/vectors_stm32f4xx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source/portable" -I"/home/jerzy/workspace_stm32/FreeRTOS_demo/Source" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"libs/CMSIS/src/vectors_stm32f4xx.d" -MT"libs/CMSIS/src/vectors_stm32f4xx.d" -c -o "libs/CMSIS/src/vectors_stm32f4xx.o" "../libs/CMSIS/src/vectors_stm32f4xx.c"
+Finished building: ../libs/CMSIS/src/vectors_stm32f4xx.c
+ 
+Building file: ../ParTest.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/board" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/Libraries/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/config" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/Debug" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/Libraries" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/settings" -I"/home/jerzy/workspace_stm32/FreeRTOS_diffDEMO/startup" -MMD -MP -MF"ParTest.d" -MT"ParTest.d" -c -o "ParTest.o" "../ParTest.c"
+../ParTest.c:71:22: fatal error: FreeRTOS.h: No such file or directory
+ #include "FreeRTOS.h"
+                      ^
+compilation terminated.
+make: *** [ParTest.o] Error 1
+
+16:26:54 Build Finished (took 5s.21ms)
+

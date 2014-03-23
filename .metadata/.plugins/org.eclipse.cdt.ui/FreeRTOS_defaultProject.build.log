@@ -1,0 +1,14 @@
+15:41:21 **** Build of configuration Debug for project FreeRTOS_defaultProject ****
+make all 
+Building file: ../src/Source/portable/GCC/ARM_CM4F/port.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -DDEBUG -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/libs/CMSIS/src" -I"../include" -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/libs/CMSIS/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/src/Source/include" -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/src/Source/portable/GCC/ARM_CM4F" -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/board" -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/config" -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/startup" -I"/home/jerzy/workspace_stm32/FreeRTOS_defaultProject/src" -I"../libs/CMSIS/include" -I"../libs/StdPeriph/include" -I"../libs/misc/include" -std=gnu11 -MMD -MP -MF"src/Source/portable/GCC/ARM_CM4F/port.d" -MT"src/Source/portable/GCC/ARM_CM4F/port.d" -c -o "src/Source/portable/GCC/ARM_CM4F/port.o" "../src/Source/portable/GCC/ARM_CM4F/port.c"
+/tmp/ccBwLQlg.s: Assembler messages:
+/tmp/ccBwLQlg.s:620: Error: selected processor does not support Thumb mode `vstmdbeq r0!,{s16-s31}'
+/tmp/ccBwLQlg.s:622: Error: instruction not allowed in IT block -- `stmdb r0!,{r4-r11,r14}'
+/tmp/ccBwLQlg.s:641: Error: selected processor does not support Thumb mode `vldmiaeq r0!,{s16-s31}'
+/tmp/ccBwLQlg.s:643: Error: instruction not allowed in IT block -- `msr psp,r0'
+make: *** [src/Source/portable/GCC/ARM_CM4F/port.o] Error 1
+
+15:41:21 Build Finished (took 112ms)
+

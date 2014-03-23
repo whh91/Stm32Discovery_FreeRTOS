@@ -1,0 +1,16 @@
+#include "stm32f4xx.h"
+
+int main(){
+	while(1){
+		*((uint32_t volatile *)(0x40023810))=0x08;
+		*((uint32_t volatile *)(0x40023810))=0x00;
+		*((uint32_t volatile *)(0x40023830))=0x08;
+		*((uint32_t volatile *)(0x40020C00))=0x55000000;
+		*((uint32_t volatile *)(0x40020C18))=0xF000;
+
+	}
+
+
+
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395577776120_9" label="withoutDemoWarnings" name="withoutDemoWarnings">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/.cproject" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/.project" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/.settings" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/Debug" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/FreeRTOS/Settings/FreeRTOSConfig.h" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/FreeRTOS/Settings/board" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/FreeRTOS/Source" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/include" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/ldscripts" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/libs" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/src" type="2"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1394897501370_0" label="Window Working Set" name="Aggregate for window 1394897501369"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395001191590_1" label="Window Working Set" name="Aggregate for window 1395001191590"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395051826364_2" label="Window Working Set" name="Aggregate for window 1395051826364"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395151045636_3" label="Window Working Set" name="Aggregate for window 1395151045636"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395242761980_4" label="Window Working Set" name="Aggregate for window 1395242761980"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395244136678_5" label="Window Working Set" name="Aggregate for window 1395244136678"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395246717325_6" label="Window Working Set" name="Aggregate for window 1395246717325"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395270890542_7" label="Window Working Set" name="Aggregate for window 1395270890542"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395276380923_8" label="Window Working Set" name="Aggregate for window 1395276380923"/>
+</workingSetManager>
