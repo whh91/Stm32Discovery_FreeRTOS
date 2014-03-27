@@ -1048,3 +1048,21 @@ java.lang.ClassCastException: org.eclipse.core.internal.resources.Folder cannot 
 
 !ENTRY org.eclipse.cdt.core 1 0 2014-03-27 01:41:27.675
 !MESSAGE Indexed 'FreeRTOS_Uart' (418 sources, 591 headers) in 6.88 sec: 41,020 declarations; 177,729 references; 31 unresolved inclusions; 109 syntax errors; 6,161 unresolved names (2.74%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-03-27 02:39:41.325
+!MESSAGE Indexed 'FreeRTOS_Uart' (61 sources, 100 headers) in 1.52 sec: 12,008 declarations; 39,964 references; 1 unresolved inclusions; 34 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.debug.core 4 120 2014-03-27 02:41:02.966
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.debug.core 4 120 2014-03-27 02:41:20.820
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.debug.core 4 120 2014-03-27 02:41:28.633
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.debug.core 4 120 2014-03-27 02:59:18.772
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.debug.core 4 120 2014-03-27 02:59:23.641
+!MESSAGE Variable references empty selection: ${project_loc}

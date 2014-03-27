@@ -145,6 +145,7 @@
 #include "task.h"
 #include "timers.h"
 #include "semphr.h"
+#include "queue.h"
 
 /* Demo application includes. */
 #include "hardware.h"
@@ -155,7 +156,9 @@
 ///* Hardware and starter kit includes. */
 //#include "arm_comm.h"
 #include "stm32f4_discovery.h"
-#include "stm32f4xx.h"
+#include <stm32f4xx.h>
+#include <stm32f4xx_usart.h>
+
 #include "stm32f4xx_conf.h"
 
 //
@@ -164,6 +167,12 @@
 #define uart2_send_TASK_PRIORITY			( tskIDLE_PRIORITY + 2UL )
 #define speaker_TASK_PRIORITY 				( tskIDLE_PRIORITY + 3UL )
 /*-----------------------------------------------------------*/
+
+//QUEUE lengths
+#define Usart2OutQUEUE_LENGTH		( 50 )
+
+
+
 
 /*
  * Set up the hardware ready to run this demo.
@@ -178,6 +187,7 @@ static void prvSetupHardware( void );
 volatile unsigned long ulFPUInterruptNesting = 0UL, ulMaxFPUInterruptNesting = 0UL;
 
 
+xQueueHandle xUsart2OutQueue;
 /*-----------------------------------------------------------*/
 
 int main(void)
@@ -185,11 +195,22 @@ int main(void)
 	/* Configure the hardware ready to run the test. */
 	prvSetupHardware();
 
+	/* Task: Flashing LEDS*/
 	vStartLEDFlashTasks( mainFLASH_TASK_PRIORITY );
 
-	//TODO: napisać StartUART2Task
-	vStartUart2SendTask( uart2_send_TASK_PRIORITY );
-	vStartSpeakerTask( speaker_TASK_PRIORITY );
+
+	/* Task: Speaker + Uart sending*/
+	xUsart2OutQueue = xQueueCreate( Usart2OutQUEUE_LENGTH, sizeof( unsigned long ) );
+
+	if( xUsart2OutQueue != NULL ) {
+
+		vStartUart2SendTask( uart2_send_TASK_PRIORITY );
+		vStartSpeakerTask( speaker_TASK_PRIORITY );
+
+	}
+	else {
+		//todo:obsluga bledu
+	}
 
 
 	/* Start the scheduler. */

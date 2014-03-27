@@ -1,0 +1,48 @@
+/*
+ * serial.c
+ *
+ *  Created on: Mar 23, 2014
+ *      Author: jerzy
+ */
+
+#include <stdlib.h>
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "serial.h"
+
+
+
+#define uart2SendSTACK_SIZE		configMINIMAL_STACK_SIZE
+#define Usart2OutQUEUE_LENGTH		( 50 )
+
+
+//void vUart2SendTask( void *pvParameters );
+static portTASK_FUNCTION_PROTO( vUart2SendTask, pvParameters );
+
+
+
+void vStartUart2SendTask( unsigned portBASE_TYPE uxPriority )
+{
+	QueueHandle_t xUsart2OutQueue;
+
+
+//	signed portBASE_TYPE xLEDTask;
+	TaskHandle_t *pxUart2SendTaskHandler;	//todo: na razie uninitialised
+	void *parametry;						//todo: na razie uninitialised
+	int xQueueCreateReturn;//todo obsluga bledu potem
+
+
+	xQueueCreateReturn = xQueueCreate( Usart2OutQUEUE_LENGTH, sizeof( unsigned long ) );
+
+
+
+	/* Spawn the task. */
+	xTaskCreate(vUart2SendTask, "uart2Send", uart2SendSTACK_SIZE, parametry, uxPriority, ( TaskHandle_t * ) pxUart2SendTaskHandler );
+}
+
+static portTASK_FUNCTION( vUart2SendTask, pvParameters )
+{
+//todo: trzeba sie zastanowci jak to zrobic
+
+}

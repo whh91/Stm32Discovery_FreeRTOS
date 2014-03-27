@@ -3,13 +3,13 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395577776120_9" label="withoutDemoWarnings" name="withoutDemoWarnings">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/ldscripts" type="2"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/.settings" type="2"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/FreeRTOS/Settings/board" type="2"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/.project" type="1"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/libs" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/FreeRTOS/Settings/board" type="2"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/FreeRTOS/Settings/FreeRTOSConfig.h" type="1"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/include" type="2"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/Debug" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/libs" type="2"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/.cproject" type="1"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/Debug" type="2"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/include" type="2"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/src" type="2"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FreeRTOS_Uart/FreeRTOS/Source" type="2"/>
 </workingSet>
@@ -23,5 +23,6 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395270890542_7" label="Window Working Set" name="Aggregate for window 1395270890542"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395276380923_8" label="Window Working Set" name="Aggregate for window 1395276380923"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395612213664_10" label="Window Working Set" name="Aggregate for window 1395612213664"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1395882032084_11" label="Window Working Set" name="Aggregate for window 1395882032084"/>
 <mruList name="withoutDemoWarnings"/>
 </workingSetManager>

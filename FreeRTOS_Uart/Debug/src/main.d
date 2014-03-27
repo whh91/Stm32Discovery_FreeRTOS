@@ -44,6 +44,7 @@ src/main.d: ../src/main.c \
  /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/task.h \
  /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/semphr.h \
  /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/queue.h \
+ /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/queue.h \
  /home/jerzy/workspace_stm32/FreeRTOS_Uart/src/hardware/hardware.h \
  /home/jerzy/workspace_stm32/FreeRTOS_Uart/src/LED_flash/flash.h \
  /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Settings/demo/Common/include/serial.h \
@@ -137,6 +138,8 @@ src/main.d: ../src/main.c \
 /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/task.h:
 
 /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/semphr.h:
+
+/home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/queue.h:
 
 /home/jerzy/workspace_stm32/FreeRTOS_Uart/FreeRTOS/Source/include/queue.h:
 
