@@ -1,0 +1,14 @@
+/*
+ * serial.h
+ *
+ *  Created on: Mar 23, 2014
+ *      Author: jerzy
+ */
+
+#ifndef SERIAL_H_
+#define SERIAL_H_
+
+//void vStartLEDFlashTasks( unsigned portBASE_TYPE uxPriority );
+
+
+#endif /* SERIAL_H_ */

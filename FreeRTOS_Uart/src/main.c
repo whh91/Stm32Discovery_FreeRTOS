@@ -147,8 +147,10 @@
 #include "semphr.h"
 
 /* Demo application includes. */
-#include "partest.h"
+#include "hardware.h"
 #include "flash.h"
+#include "serial.h"
+#include "speaker.h"
 
 ///* Hardware and starter kit includes. */
 //#include "arm_comm.h"
@@ -159,7 +161,8 @@
 //
 ///* Priorities for the demo application tasks. */
 #define mainFLASH_TASK_PRIORITY				( tskIDLE_PRIORITY + 1UL )
-
+#define uart2_send_TASK_PRIORITY			( tskIDLE_PRIORITY + 2UL )
+#define speaker_TASK_PRIORITY 				( tskIDLE_PRIORITY + 3UL )
 /*-----------------------------------------------------------*/
 
 /*
@@ -172,7 +175,7 @@ static void prvSetupHardware( void );
  that uses the FPU, and decremented on exit of the same interrupt.
  ulMaxFPUInterruptNesting latches the highest value reached by
  ulFPUInterruptNesting.  These variables have no other purpose. */
- volatile unsigned long ulFPUInterruptNesting = 0UL, ulMaxFPUInterruptNesting = 0UL;
+volatile unsigned long ulFPUInterruptNesting = 0UL, ulMaxFPUInterruptNesting = 0UL;
 
 
 /*-----------------------------------------------------------*/
@@ -183,6 +186,11 @@ int main(void)
 	prvSetupHardware();
 
 	vStartLEDFlashTasks( mainFLASH_TASK_PRIORITY );
+
+	//TODO: napisać StartUART2Task
+	vStartUart2SendTask( uart2_send_TASK_PRIORITY );
+	vStartSpeakerTask( speaker_TASK_PRIORITY );
+
 
 	/* Start the scheduler. */
 	vTaskStartScheduler();
@@ -195,6 +203,19 @@ int main(void)
 	for( ;; );
 }
 
+
+
+//int main(void){
+//
+//	init_usart();
+//
+//
+//	while(1){
+//		USART_SendData(USART2, 'h'); // defined in stm32f4xx_usart.h
+//		Delay(0x3FFFFF);
+//	}
+//
+//}
 
 static void prvSetupHardware( void )
 {
@@ -211,6 +232,11 @@ static void prvSetupHardware( void )
 	lowest interrupt priority, so it is ok to use the ISR safe FreeRTOS API
 	from the button interrupt handler. */
 	//STM_EVAL_PBInit( BUTTON_USER, BUTTON_MODE_EXTI );
+
+	/* Configure USART2 */
+	vUsart2Initialise();
+
+
 }
 /*-----------------------------------------------------------*/
 

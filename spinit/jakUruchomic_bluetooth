@@ -1,0 +1,41 @@
+
+//skanuje i wyswiedla dostepne urzadzenia:
+
+hcitool scan
+
+gksudo gedit /etc/bluetooth/rfcomm.conf
+
+//wpisac:
+rfcomm0 {
+    # Automatically bind the device at startup
+    bind no;
+ 
+    # Bluetooth address of the device
+    device 11:22:33:44:55:66;
+ 
+    # RFCOMM channel for the connection
+    channel 1;
+ 
+    # Description of the connection
+    comment "any description you like";
+}
+//i zrwstartowac kompa
+
+
+sudo rfcomm bind rfcomm0
+sudo rfcomm connect rfcomm0
+
+//jezeli wypluje:
+Can't connect RFCOMM socket: Device or resource busy
+//to:
+sudo rfcomm relese rfcomm0
+sudo rfcomm connect rfcomm0
+
+//powino oddać:
+
+Connected /dev/rfcomm0 to 00:14:01:24:14:76 on channel 1
+Press CTRL-C for hangup
+
+minicom -h
+minicom -s
+usatwić na /dev/rfcomm0, 9600 8N1 i powinno działać

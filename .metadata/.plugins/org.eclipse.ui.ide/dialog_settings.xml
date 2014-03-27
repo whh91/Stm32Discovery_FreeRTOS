@@ -10,6 +10,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/jerzy/workspace_stm32/FreeRTOS_Uart"/>
 			<item value="/home/jerzy/workspace_stm32/STM32F4_demo"/>
 			<item value="/home/jerzy/ARMtoolchains/bareCortexM"/>
 		</list>
@@ -22,6 +23,11 @@
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.cdt.ui.newCWizards"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.views.markers.FiltersConfigurationDialog">
+		<item value="New Configuration" key="SELECTED_FILTER_GROUP"/>
+		<list key="PREV_SELECTED_ELEMENTS">
 		</list>
 	</section>
 </section>

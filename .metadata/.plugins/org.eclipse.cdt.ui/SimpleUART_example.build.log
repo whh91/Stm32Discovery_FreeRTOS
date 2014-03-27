@@ -1,0 +1,11 @@
+01:42:38 **** Incremental Build of configuration Debug for project SimpleUART_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SimpleUART_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2668	     20	    256	   2944	    b80	SimpleUART_example.elf
+Finished building: SimpleUART_example.siz
+ 
+
+01:42:38 Build Finished (took 59ms)
+

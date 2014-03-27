@@ -19,6 +19,83 @@ NVIC_InitStructure  0x4               ./FreeRTOS/Settings/board/stm32f4_discover
 
 Discarded input sections
 
+ .group         0x00000000        0x8 ./src/UART/serial.o
+ .text          0x00000000        0x0 ./src/UART/serial.o
+ .data          0x00000000        0x0 ./src/UART/serial.o
+ .bss           0x00000000        0x0 ./src/UART/serial.o
+ .debug_info    0x00000000       0x21 ./src/UART/serial.o
+ .debug_abbrev  0x00000000       0x13 ./src/UART/serial.o
+ .debug_aranges
+                0x00000000       0x18 ./src/UART/serial.o
+ .debug_macro   0x00000000       0x11 ./src/UART/serial.o
+ .debug_macro   0x00000000      0x86e ./src/UART/serial.o
+ .debug_line    0x00000000       0x35 ./src/UART/serial.o
+ .debug_str     0x00000000     0x2473 ./src/UART/serial.o
+ .comment       0x00000000       0x71 ./src/UART/serial.o
+ .ARM.attributes
+                0x00000000       0x37 ./src/UART/serial.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .group         0x00000000        0x8 ./src/LED_flash/flash.o
+ .text          0x00000000        0x0 ./src/LED_flash/flash.o
+ .data          0x00000000        0x0 ./src/LED_flash/flash.o
+ .bss           0x00000000        0x0 ./src/LED_flash/flash.o
+ .debug_macro   0x00000000      0x86e ./src/LED_flash/flash.o
  .group         0x00000000        0x8 ./src/ParTest.o
  .group         0x00000000        0x8 ./src/ParTest.o
  .group         0x00000000        0x8 ./src/ParTest.o
@@ -74,114 +151,53 @@ Discarded input sections
  .bss           0x00000000        0x0 ./src/ParTest.o
  .text.vParTestSetLED
                 0x00000000       0x40 ./src/ParTest.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .group         0x00000000        0x8 ./src/flash.o
- .text          0x00000000        0x0 ./src/flash.o
- .data          0x00000000        0x0 ./src/flash.o
- .bss           0x00000000        0x0 ./src/flash.o
- .debug_macro   0x00000000      0x86e ./src/flash.o
- .debug_macro   0x00000000       0x52 ./src/flash.o
- .debug_macro   0x00000000       0x16 ./src/flash.o
- .debug_macro   0x00000000       0x35 ./src/flash.o
- .debug_macro   0x00000000       0xa3 ./src/flash.o
- .debug_macro   0x00000000       0x40 ./src/flash.o
- .debug_macro   0x00000000       0x10 ./src/flash.o
- .debug_macro   0x00000000       0x5e ./src/flash.o
- .debug_macro   0x00000000       0x3b ./src/flash.o
- .debug_macro   0x00000000       0x2d ./src/flash.o
- .debug_macro   0x00000000       0x42 ./src/flash.o
- .debug_macro   0x00000000      0xd39 ./src/flash.o
- .debug_macro   0x00000000     0x8bb0 ./src/flash.o
- .debug_macro   0x00000000      0x44f ./src/flash.o
- .debug_macro   0x00000000       0xb2 ./src/flash.o
- .debug_macro   0x00000000      0x477 ./src/flash.o
- .debug_macro   0x00000000       0xae ./src/flash.o
- .debug_macro   0x00000000      0x41c ./src/flash.o
- .debug_macro   0x00000000      0x2bc ./src/flash.o
- .debug_macro   0x00000000      0x2bb ./src/flash.o
- .debug_macro   0x00000000       0x64 ./src/flash.o
- .debug_macro   0x00000000       0xe7 ./src/flash.o
- .debug_macro   0x00000000      0x62f ./src/flash.o
- .debug_macro   0x00000000      0x57b ./src/flash.o
- .debug_macro   0x00000000      0x342 ./src/flash.o
- .debug_macro   0x00000000      0x36c ./src/flash.o
- .debug_macro   0x00000000       0xf7 ./src/flash.o
- .debug_macro   0x00000000      0x73b ./src/flash.o
- .debug_macro   0x00000000      0x223 ./src/flash.o
- .debug_macro   0x00000000       0x34 ./src/flash.o
- .debug_macro   0x00000000       0x82 ./src/flash.o
- .debug_macro   0x00000000      0x144 ./src/flash.o
- .debug_macro   0x00000000       0xc3 ./src/flash.o
- .debug_macro   0x00000000       0x40 ./src/flash.o
- .debug_macro   0x00000000      0x3cf ./src/flash.o
- .debug_macro   0x00000000      0x188 ./src/flash.o
- .debug_macro   0x00000000      0x149 ./src/flash.o
- .debug_macro   0x00000000      0x279 ./src/flash.o
- .debug_macro   0x00000000       0x35 ./src/flash.o
- .debug_macro   0x00000000      0x10b ./src/flash.o
- .debug_macro   0x00000000       0xb7 ./src/flash.o
- .debug_macro   0x00000000       0x12 ./src/flash.o
- .debug_macro   0x00000000       0x1f ./src/flash.o
- .debug_macro   0x00000000      0x34c ./src/flash.o
- .debug_macro   0x00000000       0x79 ./src/flash.o
- .debug_macro   0x00000000       0x69 ./src/flash.o
- .debug_macro   0x00000000       0x10 ./src/flash.o
+ .debug_macro   0x00000000      0x86e ./src/ParTest.o
+ .debug_macro   0x00000000       0x52 ./src/ParTest.o
+ .debug_macro   0x00000000       0x16 ./src/ParTest.o
+ .debug_macro   0x00000000       0x35 ./src/ParTest.o
+ .debug_macro   0x00000000       0xa3 ./src/ParTest.o
+ .debug_macro   0x00000000       0x40 ./src/ParTest.o
+ .debug_macro   0x00000000       0x10 ./src/ParTest.o
+ .debug_macro   0x00000000       0x5e ./src/ParTest.o
+ .debug_macro   0x00000000       0x3b ./src/ParTest.o
+ .debug_macro   0x00000000       0x2d ./src/ParTest.o
+ .debug_macro   0x00000000       0x42 ./src/ParTest.o
+ .debug_macro   0x00000000      0xd39 ./src/ParTest.o
+ .debug_macro   0x00000000     0x8bb0 ./src/ParTest.o
+ .debug_macro   0x00000000      0x44f ./src/ParTest.o
+ .debug_macro   0x00000000       0xb2 ./src/ParTest.o
+ .debug_macro   0x00000000      0x477 ./src/ParTest.o
+ .debug_macro   0x00000000       0xae ./src/ParTest.o
+ .debug_macro   0x00000000      0x41c ./src/ParTest.o
+ .debug_macro   0x00000000      0x2bc ./src/ParTest.o
+ .debug_macro   0x00000000      0x2bb ./src/ParTest.o
+ .debug_macro   0x00000000       0x64 ./src/ParTest.o
+ .debug_macro   0x00000000       0xe7 ./src/ParTest.o
+ .debug_macro   0x00000000      0x62f ./src/ParTest.o
+ .debug_macro   0x00000000      0x57b ./src/ParTest.o
+ .debug_macro   0x00000000      0x342 ./src/ParTest.o
+ .debug_macro   0x00000000      0x36c ./src/ParTest.o
+ .debug_macro   0x00000000       0xf7 ./src/ParTest.o
+ .debug_macro   0x00000000      0x73b ./src/ParTest.o
+ .debug_macro   0x00000000      0x223 ./src/ParTest.o
+ .debug_macro   0x00000000       0x34 ./src/ParTest.o
+ .debug_macro   0x00000000       0x82 ./src/ParTest.o
+ .debug_macro   0x00000000      0x144 ./src/ParTest.o
+ .debug_macro   0x00000000       0xc3 ./src/ParTest.o
+ .debug_macro   0x00000000       0x40 ./src/ParTest.o
+ .debug_macro   0x00000000      0x3cf ./src/ParTest.o
+ .debug_macro   0x00000000      0x188 ./src/ParTest.o
+ .debug_macro   0x00000000      0x149 ./src/ParTest.o
+ .debug_macro   0x00000000      0x279 ./src/ParTest.o
+ .debug_macro   0x00000000       0x35 ./src/ParTest.o
+ .debug_macro   0x00000000      0x10b ./src/ParTest.o
+ .debug_macro   0x00000000       0xb7 ./src/ParTest.o
+ .debug_macro   0x00000000       0x12 ./src/ParTest.o
+ .debug_macro   0x00000000       0x1f ./src/ParTest.o
+ .debug_macro   0x00000000      0x34c ./src/ParTest.o
+ .debug_macro   0x00000000       0x79 ./src/ParTest.o
+ .debug_macro   0x00000000       0x69 ./src/ParTest.o
+ .debug_macro   0x00000000       0x10 ./src/ParTest.o
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
  .group         0x00000000        0x8 ./src/main.o
@@ -6275,8 +6291,9 @@ MEMORY_ARRAY     0x20002000         0x00000020         xrw
 
 Linker script and memory map
 
+LOAD ./src/UART/serial.o
+LOAD ./src/LED_flash/flash.o
 LOAD ./src/ParTest.o
-LOAD ./src/flash.o
 LOAD ./src/main.o
 LOAD ./libs/misc/src/_sbrk.o
 LOAD ./libs/misc/src/_write.o
@@ -6491,17 +6508,17 @@ END GROUP
 .text           0x08000288     0x2854
                 0x08000288                . = ALIGN (0x4)
  *(.text .text.*)
- .text.vParTestInitialise
-                0x08000288       0x20 ./src/ParTest.o
-                0x08000288                vParTestInitialise
- .text.vParTestToggleLED
-                0x080002a8       0x30 ./src/ParTest.o
-                0x080002a8                vParTestToggleLED
  .text.vStartLEDFlashTasks
-                0x080002d8       0x44 ./src/flash.o
-                0x080002d8                vStartLEDFlashTasks
+                0x08000288       0x44 ./src/LED_flash/flash.o
+                0x08000288                vStartLEDFlashTasks
  .text.vLEDFlashTask
-                0x0800031c       0x68 ./src/flash.o
+                0x080002cc       0x68 ./src/LED_flash/flash.o
+ .text.vParTestInitialise
+                0x08000334       0x20 ./src/ParTest.o
+                0x08000334                vParTestInitialise
+ .text.vParTestToggleLED
+                0x08000354       0x30 ./src/ParTest.o
+                0x08000354                vParTestToggleLED
  .text.NVIC_SetPendingIRQ
                 0x08000384       0x34 ./src/main.o
  .text.main     0x080003b8       0x14 ./src/main.o
@@ -6749,8 +6766,8 @@ END GROUP
  .text.memset   0x080029f8       0x94 /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
                 0x080029f8                memset
  *(.rodata .rodata.*)
- .rodata.xLEDs  0x08002a8c        0x4 ./src/ParTest.o
- .rodata        0x08002a90        0x8 ./src/flash.o
+ .rodata        0x08002a8c        0x8 ./src/LED_flash/flash.o
+ .rodata.xLEDs  0x08002a94        0x4 ./src/ParTest.o
  .rodata        0x08002a98        0x8 ./FreeRTOS/Source/tasks.o
  .rodata.ucExpectedStackBytes.8772
                 0x08002aa0       0x14 ./FreeRTOS/Source/tasks.o
@@ -6774,10 +6791,10 @@ END GROUP
  .v4_bx         0x00000000        0x0 linker stubs
 
 .iplt           0x08002adc        0x0
- .iplt          0x00000000        0x0 ./src/ParTest.o
+ .iplt          0x00000000        0x0 ./src/UART/serial.o
 
 .rel.dyn        0x08002adc        0x0
- .rel.iplt      0x00000000        0x0 ./src/ParTest.o
+ .rel.iplt      0x00000000        0x0 ./src/UART/serial.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
@@ -6814,7 +6831,7 @@ END GROUP
                 0x2000001c                __data_end__ = .
 
 .igot.plt       0x2000001c        0x0 load address 0x08002af8
- .igot.plt      0x00000000        0x0 ./src/ParTest.o
+ .igot.plt      0x00000000        0x0 ./src/UART/serial.o
 
 .bss            0x2000001c    0x12d90 load address 0x08002af8
                 0x2000001c                . = ALIGN (0x4)
@@ -6824,7 +6841,7 @@ END GROUP
                 0x2000001c                _sbss = .
  *(.bss .bss.*)
  .bss.uxFlashTaskNumber
-                0x2000001c        0x4 ./src/flash.o
+                0x2000001c        0x4 ./src/LED_flash/flash.o
  .bss.ulFPUInterruptNesting
                 0x20000020        0x4 ./src/main.o
                 0x20000020                ulFPUInterruptNesting
@@ -6964,9 +6981,9 @@ END GROUP
 
 .comment        0x00000000       0x70
  *(.comment)
- .comment       0x00000000       0x70 ./src/ParTest.o
+ .comment       0x00000000       0x70 ./src/LED_flash/flash.o
                                  0x71 (size before relaxing)
- .comment       0x00000000       0x71 ./src/flash.o
+ .comment       0x00000000       0x71 ./src/ParTest.o
  .comment       0x00000000       0x71 ./src/main.o
  .comment       0x00000000       0x71 ./libs/StdPeriph/src/misc.o
  .comment       0x00000000       0x71 ./libs/StdPeriph/src/stm32f4xx_gpio.o
@@ -6986,9 +7003,9 @@ END GROUP
 .ARM.attributes
                 0x00000000       0x35
  .ARM.attributes
-                0x00000000       0x37 ./src/ParTest.o
+                0x00000000       0x37 ./src/LED_flash/flash.o
  .ARM.attributes
-                0x00000037       0x37 ./src/flash.o
+                0x00000037       0x37 ./src/ParTest.o
  .ARM.attributes
                 0x0000006e       0x37 ./src/main.o
  .ARM.attributes
@@ -7041,9 +7058,9 @@ END GROUP
 .debug_aranges  0x00000000      0x890
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x30 ./src/ParTest.o
+                0x00000000       0x28 ./src/LED_flash/flash.o
  .debug_aranges
-                0x00000030       0x28 ./src/flash.o
+                0x00000028       0x30 ./src/ParTest.o
  .debug_aranges
                 0x00000058       0x68 ./src/main.o
  .debug_aranges
@@ -7080,8 +7097,8 @@ END GROUP
 
 .debug_info     0x00000000     0x60e8
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x165 ./src/ParTest.o
- .debug_info    0x00000165      0x15a ./src/flash.o
+ .debug_info    0x00000000      0x15a ./src/LED_flash/flash.o
+ .debug_info    0x0000015a      0x165 ./src/ParTest.o
  .debug_info    0x000002bf      0x593 ./src/main.o
  .debug_info    0x00000852      0x524 ./libs/StdPeriph/src/misc.o
  .debug_info    0x00000d76      0x5e1 ./libs/StdPeriph/src/stm32f4xx_gpio.o
@@ -7100,8 +7117,8 @@ END GROUP
 
 .debug_abbrev   0x00000000     0x1694
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0xd1 ./src/ParTest.o
- .debug_abbrev  0x000000d1       0xa9 ./src/flash.o
+ .debug_abbrev  0x00000000       0xa9 ./src/LED_flash/flash.o
+ .debug_abbrev  0x000000a9       0xd1 ./src/ParTest.o
  .debug_abbrev  0x0000017a      0x1d8 ./src/main.o
  .debug_abbrev  0x00000352      0x14a ./libs/StdPeriph/src/misc.o
  .debug_abbrev  0x0000049c      0x1a8 ./libs/StdPeriph/src/stm32f4xx_gpio.o
@@ -7118,30 +7135,30 @@ END GROUP
  .debug_abbrev  0x00001369      0x1a3 ./FreeRTOS/Source/timers.o
  .debug_abbrev  0x0000150c      0x188 ./FreeRTOS/Settings/board/stm32f4_discovery.o
 
-.debug_line     0x00000000     0x73ec
+.debug_line     0x00000000     0x742e
  *(.debug_line)
- .debug_line    0x00000000      0x6c6 ./src/ParTest.o
- .debug_line    0x000006c6      0x6ef ./src/flash.o
- .debug_line    0x00000db5      0x793 ./src/main.o
- .debug_line    0x00001548      0x4fc ./libs/StdPeriph/src/misc.o
- .debug_line    0x00001a44      0x5f2 ./libs/StdPeriph/src/stm32f4xx_gpio.o
- .debug_line    0x00002036      0x8ef ./libs/StdPeriph/src/stm32f4xx_rcc.o
- .debug_line    0x00002925      0x2a8 ./libs/CMSIS/src/startup_cm.o
- .debug_line    0x00002bcd      0x4c0 ./libs/CMSIS/src/startup_stm32f4xx.o
- .debug_line    0x0000308d      0x51e ./libs/CMSIS/src/system_stm32f4xx.o
- .debug_line    0x000035ab       0x93 ./libs/CMSIS/src/vectors_stm32f4xx.o
- .debug_line    0x0000363e      0x6b7 ./FreeRTOS/Source/portable/MemMang/heap_1.o
- .debug_line    0x00003cf5      0x777 ./FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
- .debug_line    0x0000446c      0x6b9 ./FreeRTOS/Source/list.o
- .debug_line    0x00004b25      0xc31 ./FreeRTOS/Source/queue.o
- .debug_line    0x00005756      0xf13 ./FreeRTOS/Source/tasks.o
- .debug_line    0x00006669      0x847 ./FreeRTOS/Source/timers.o
- .debug_line    0x00006eb0      0x53c ./FreeRTOS/Settings/board/stm32f4_discovery.o
+ .debug_line    0x00000000      0x6f9 ./src/LED_flash/flash.o
+ .debug_line    0x000006f9      0x6c6 ./src/ParTest.o
+ .debug_line    0x00000dbf      0x7cb ./src/main.o
+ .debug_line    0x0000158a      0x4fc ./libs/StdPeriph/src/misc.o
+ .debug_line    0x00001a86      0x5f2 ./libs/StdPeriph/src/stm32f4xx_gpio.o
+ .debug_line    0x00002078      0x8ef ./libs/StdPeriph/src/stm32f4xx_rcc.o
+ .debug_line    0x00002967      0x2a8 ./libs/CMSIS/src/startup_cm.o
+ .debug_line    0x00002c0f      0x4c0 ./libs/CMSIS/src/startup_stm32f4xx.o
+ .debug_line    0x000030cf      0x51e ./libs/CMSIS/src/system_stm32f4xx.o
+ .debug_line    0x000035ed       0x93 ./libs/CMSIS/src/vectors_stm32f4xx.o
+ .debug_line    0x00003680      0x6b7 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_line    0x00003d37      0x777 ./FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+ .debug_line    0x000044ae      0x6b9 ./FreeRTOS/Source/list.o
+ .debug_line    0x00004b67      0xc31 ./FreeRTOS/Source/queue.o
+ .debug_line    0x00005798      0xf13 ./FreeRTOS/Source/tasks.o
+ .debug_line    0x000066ab      0x847 ./FreeRTOS/Source/timers.o
+ .debug_line    0x00006ef2      0x53c ./FreeRTOS/Settings/board/stm32f4_discovery.o
 
 .debug_frame    0x00000000     0x1a80
  *(.debug_frame)
- .debug_frame   0x00000000       0x6c ./src/ParTest.o
- .debug_frame   0x0000006c       0x50 ./src/flash.o
+ .debug_frame   0x00000000       0x50 ./src/LED_flash/flash.o
+ .debug_frame   0x00000050       0x6c ./src/ParTest.o
  .debug_frame   0x000000bc      0x124 ./src/main.o
  .debug_frame   0x000001e0       0x9c ./libs/StdPeriph/src/misc.o
  .debug_frame   0x0000027c      0x19c ./libs/StdPeriph/src/stm32f4xx_gpio.o
@@ -7160,41 +7177,41 @@ END GROUP
  .debug_frame   0x00001a28       0x2c /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memcmp.o)
  .debug_frame   0x00001a54       0x2c /home/jerzy/ARMtoolchains/gcc-arm-none-eabi-4_8-2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
 
-.debug_str      0x00000000    0x683a6
+.debug_str      0x00000000    0x683b0
  *(.debug_str)
- .debug_str     0x00000000    0x6027e ./src/ParTest.o
+ .debug_str     0x00000000    0x610d0 ./src/LED_flash/flash.o
+                              0x612e4 (size before relaxing)
+ .debug_str     0x000610d0      0x2e6 ./src/ParTest.o
                               0x6047c (size before relaxing)
- .debug_str     0x0006027e     0x112e ./src/flash.o
-                              0x612da (size before relaxing)
- .debug_str     0x000613ac     0x202d ./src/main.o
+ .debug_str     0x000613b6     0x202d ./src/main.o
                               0x6244d (size before relaxing)
- .debug_str     0x000633d9      0x224 ./libs/StdPeriph/src/misc.o
+ .debug_str     0x000633e3      0x224 ./libs/StdPeriph/src/misc.o
                               0x5d86c (size before relaxing)
- .debug_str     0x000635fd      0x2c7 ./libs/StdPeriph/src/stm32f4xx_gpio.o
+ .debug_str     0x00063607      0x2c7 ./libs/StdPeriph/src/stm32f4xx_gpio.o
                               0x5d909 (size before relaxing)
- .debug_str     0x000638c4      0xd39 ./libs/StdPeriph/src/stm32f4xx_rcc.o
+ .debug_str     0x000638ce      0xd39 ./libs/StdPeriph/src/stm32f4xx_rcc.o
                               0x5e3c5 (size before relaxing)
- .debug_str     0x000645fd      0x4eb ./libs/CMSIS/src/startup_cm.o
+ .debug_str     0x00064607      0x4eb ./libs/CMSIS/src/startup_cm.o
                                0x34cd (size before relaxing)
- .debug_str     0x00064ae8       0x37 ./libs/CMSIS/src/startup_stm32f4xx.o
+ .debug_str     0x00064af2       0x37 ./libs/CMSIS/src/startup_stm32f4xx.o
                               0x5d614 (size before relaxing)
- .debug_str     0x00064b1f       0xf3 ./libs/CMSIS/src/system_stm32f4xx.o
+ .debug_str     0x00064b29       0xf3 ./libs/CMSIS/src/system_stm32f4xx.o
                               0x5d878 (size before relaxing)
- .debug_str     0x00064c12       0xb0 ./libs/CMSIS/src/vectors_stm32f4xx.o
+ .debug_str     0x00064c1c       0xb0 ./libs/CMSIS/src/vectors_stm32f4xx.o
                                0x254f (size before relaxing)
- .debug_str     0x00064cc2      0x139 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_str     0x00064ccc      0x139 ./FreeRTOS/Source/portable/MemMang/heap_1.o
                               0x612ea (size before relaxing)
- .debug_str     0x00064dfb      0x76a ./FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+ .debug_str     0x00064e05      0x76a ./FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
                               0x6094d (size before relaxing)
- .debug_str     0x00065565      0x130 ./FreeRTOS/Source/list.o
+ .debug_str     0x0006556f      0x130 ./FreeRTOS/Source/list.o
                               0x60f35 (size before relaxing)
- .debug_str     0x00065695     0x1588 ./FreeRTOS/Source/queue.o
+ .debug_str     0x0006569f     0x1588 ./FreeRTOS/Source/queue.o
                               0x6329d (size before relaxing)
- .debug_str     0x00066c1d     0x117a ./FreeRTOS/Source/tasks.o
+ .debug_str     0x00066c27     0x117a ./FreeRTOS/Source/tasks.o
                               0x63b97 (size before relaxing)
- .debug_str     0x00067d97      0x390 ./FreeRTOS/Source/timers.o
+ .debug_str     0x00067da1      0x390 ./FreeRTOS/Source/timers.o
                               0x6288d (size before relaxing)
- .debug_str     0x00068127      0x27f ./FreeRTOS/Settings/board/stm32f4_discovery.o
+ .debug_str     0x00068131      0x27f ./FreeRTOS/Settings/board/stm32f4_discovery.o
                               0x5e1fe (size before relaxing)
 
 .debug_loc
@@ -7217,8 +7234,8 @@ END GROUP
 OUTPUT(FreeRTOS_Uart.elf elf32-littlearm)
 
 .debug_ranges   0x00000000      0x780
- .debug_ranges  0x00000000       0x20 ./src/ParTest.o
- .debug_ranges  0x00000020       0x18 ./src/flash.o
+ .debug_ranges  0x00000000       0x18 ./src/LED_flash/flash.o
+ .debug_ranges  0x00000018       0x20 ./src/ParTest.o
  .debug_ranges  0x00000038       0x58 ./src/main.o
  .debug_ranges  0x00000090       0x30 ./libs/StdPeriph/src/misc.o
  .debug_ranges  0x000000c0       0x78 ./libs/StdPeriph/src/stm32f4xx_gpio.o
@@ -7235,94 +7252,93 @@ OUTPUT(FreeRTOS_Uart.elf elf32-littlearm)
  .debug_ranges  0x000006d0       0x78 ./FreeRTOS/Source/timers.o
  .debug_ranges  0x00000748       0x38 ./FreeRTOS/Settings/board/stm32f4_discovery.o
 
-.debug_macro    0x00000000    0x1261a
- .debug_macro   0x00000000      0x23e ./src/ParTest.o
- .debug_macro   0x0000023e      0x86e ./src/ParTest.o
- .debug_macro   0x00000aac      0x16d ./src/ParTest.o
- .debug_macro   0x00000c19       0x52 ./src/ParTest.o
- .debug_macro   0x00000c6b       0x16 ./src/ParTest.o
- .debug_macro   0x00000c81       0x35 ./src/ParTest.o
- .debug_macro   0x00000cb6       0xa3 ./src/ParTest.o
- .debug_macro   0x00000d59      0x20e ./src/ParTest.o
- .debug_macro   0x00000f67       0x40 ./src/ParTest.o
- .debug_macro   0x00000fa7       0x10 ./src/ParTest.o
- .debug_macro   0x00000fb7       0x5e ./src/ParTest.o
- .debug_macro   0x00001015       0x3b ./src/ParTest.o
- .debug_macro   0x00001050       0x2d ./src/ParTest.o
- .debug_macro   0x0000107d       0x42 ./src/ParTest.o
- .debug_macro   0x000010bf      0xd39 ./src/ParTest.o
- .debug_macro   0x00001df8     0x8bb0 ./src/ParTest.o
- .debug_macro   0x0000a9a8      0x44f ./src/ParTest.o
- .debug_macro   0x0000adf7       0xb2 ./src/ParTest.o
- .debug_macro   0x0000aea9      0x477 ./src/ParTest.o
- .debug_macro   0x0000b320       0xae ./src/ParTest.o
- .debug_macro   0x0000b3ce      0x41c ./src/ParTest.o
- .debug_macro   0x0000b7ea      0x2bc ./src/ParTest.o
- .debug_macro   0x0000baa6      0x2bb ./src/ParTest.o
- .debug_macro   0x0000bd61       0x64 ./src/ParTest.o
- .debug_macro   0x0000bdc5       0xe7 ./src/ParTest.o
- .debug_macro   0x0000beac      0x62f ./src/ParTest.o
- .debug_macro   0x0000c4db      0x57b ./src/ParTest.o
- .debug_macro   0x0000ca56      0x342 ./src/ParTest.o
- .debug_macro   0x0000cd98      0x36c ./src/ParTest.o
- .debug_macro   0x0000d104       0xf7 ./src/ParTest.o
- .debug_macro   0x0000d1fb      0x73b ./src/ParTest.o
- .debug_macro   0x0000d936      0x223 ./src/ParTest.o
- .debug_macro   0x0000db59       0x34 ./src/ParTest.o
- .debug_macro   0x0000db8d       0x82 ./src/ParTest.o
- .debug_macro   0x0000dc0f      0x144 ./src/ParTest.o
- .debug_macro   0x0000dd53       0xc3 ./src/ParTest.o
- .debug_macro   0x0000de16       0x40 ./src/ParTest.o
- .debug_macro   0x0000de56      0x3cf ./src/ParTest.o
- .debug_macro   0x0000e225      0x188 ./src/ParTest.o
- .debug_macro   0x0000e3ad      0x149 ./src/ParTest.o
- .debug_macro   0x0000e4f6      0x279 ./src/ParTest.o
- .debug_macro   0x0000e76f       0x35 ./src/ParTest.o
- .debug_macro   0x0000e7a4      0x10b ./src/ParTest.o
- .debug_macro   0x0000e8af       0xb7 ./src/ParTest.o
- .debug_macro   0x0000e966       0x12 ./src/ParTest.o
- .debug_macro   0x0000e978       0x1f ./src/ParTest.o
- .debug_macro   0x0000e997      0x34c ./src/ParTest.o
- .debug_macro   0x0000ece3       0x79 ./src/ParTest.o
- .debug_macro   0x0000ed5c       0x69 ./src/ParTest.o
- .debug_macro   0x0000edc5       0x10 ./src/ParTest.o
- .debug_macro   0x0000edd5       0x88 ./src/ParTest.o
- .debug_macro   0x0000ee5d      0x2c4 ./src/flash.o
- .debug_macro   0x0000f121       0x16 ./src/flash.o
- .debug_macro   0x0000f137      0x10e ./src/flash.o
- .debug_macro   0x0000f245       0x86 ./src/flash.o
- .debug_macro   0x0000f2cb       0x3a ./src/flash.o
- .debug_macro   0x0000f305       0x52 ./src/flash.o
- .debug_macro   0x0000f357       0x16 ./src/flash.o
- .debug_macro   0x0000f36d       0x43 ./src/flash.o
- .debug_macro   0x0000f3b0      0x180 ./src/flash.o
- .debug_macro   0x0000f530       0x16 ./src/flash.o
- .debug_macro   0x0000f546       0x29 ./src/flash.o
- .debug_macro   0x0000f56f      0x214 ./src/flash.o
- .debug_macro   0x0000f783      0x27b ./src/main.o
- .debug_macro   0x0000f9fe       0x91 ./src/main.o
- .debug_macro   0x0000fa8f       0xb0 ./src/main.o
- .debug_macro   0x0000fb3f       0x7e ./src/main.o
- .debug_macro   0x0000fbbd      0x1c7 ./libs/StdPeriph/src/misc.o
- .debug_macro   0x0000fd84       0x7c ./libs/StdPeriph/src/misc.o
- .debug_macro   0x0000fe00      0x1c1 ./libs/StdPeriph/src/stm32f4xx_gpio.o
- .debug_macro   0x0000ffc1      0x2b6 ./libs/StdPeriph/src/stm32f4xx_gpio.o
- .debug_macro   0x00010277      0x28b ./libs/StdPeriph/src/stm32f4xx_rcc.o
- .debug_macro   0x00010502      0x629 ./libs/StdPeriph/src/stm32f4xx_rcc.o
- .debug_macro   0x00010b2b       0xa6 ./libs/CMSIS/src/startup_cm.o
- .debug_macro   0x00010bd1      0x1b7 ./libs/CMSIS/src/startup_stm32f4xx.o
- .debug_macro   0x00010d88      0x1db ./libs/CMSIS/src/system_stm32f4xx.o
- .debug_macro   0x00010f63       0x11 ./libs/CMSIS/src/vectors_stm32f4xx.o
- .debug_macro   0x00010f74      0x2b1 ./FreeRTOS/Source/portable/MemMang/heap_1.o
- .debug_macro   0x00011225      0x2cf ./FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
- .debug_macro   0x000114f4      0x290 ./FreeRTOS/Source/list.o
- .debug_macro   0x00011784      0x320 ./FreeRTOS/Source/queue.o
- .debug_macro   0x00011aa4      0x283 ./FreeRTOS/Source/queue.o
- .debug_macro   0x00011d27       0x10 ./FreeRTOS/Source/queue.o
- .debug_macro   0x00011d37       0x35 ./FreeRTOS/Source/queue.o
- .debug_macro   0x00011d6c       0x1f ./FreeRTOS/Source/queue.o
- .debug_macro   0x00011d8b      0x363 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x000120ee       0x17 ./FreeRTOS/Source/tasks.o
- .debug_macro   0x00012105      0x2cd ./FreeRTOS/Source/timers.o
- .debug_macro   0x000123d2      0x1c6 ./FreeRTOS/Settings/board/stm32f4_discovery.o
- .debug_macro   0x00012598       0x82 ./FreeRTOS/Settings/board/stm32f4_discovery.o
+.debug_macro    0x00000000    0x11dac
+ .debug_macro   0x00000000      0x2c4 ./src/LED_flash/flash.o
+ .debug_macro   0x000002c4       0x52 ./src/LED_flash/flash.o
+ .debug_macro   0x00000316       0x16 ./src/LED_flash/flash.o
+ .debug_macro   0x0000032c       0x35 ./src/LED_flash/flash.o
+ .debug_macro   0x00000361       0xa3 ./src/LED_flash/flash.o
+ .debug_macro   0x00000404       0x16 ./src/LED_flash/flash.o
+ .debug_macro   0x0000041a      0x10e ./src/LED_flash/flash.o
+ .debug_macro   0x00000528       0x86 ./src/LED_flash/flash.o
+ .debug_macro   0x000005ae       0x3a ./src/LED_flash/flash.o
+ .debug_macro   0x000005e8       0x52 ./src/LED_flash/flash.o
+ .debug_macro   0x0000063a       0x16 ./src/LED_flash/flash.o
+ .debug_macro   0x00000650       0x43 ./src/LED_flash/flash.o
+ .debug_macro   0x00000693      0x180 ./src/LED_flash/flash.o
+ .debug_macro   0x00000813       0x16 ./src/LED_flash/flash.o
+ .debug_macro   0x00000829       0x29 ./src/LED_flash/flash.o
+ .debug_macro   0x00000852      0x214 ./src/LED_flash/flash.o
+ .debug_macro   0x00000a66       0x40 ./src/LED_flash/flash.o
+ .debug_macro   0x00000aa6       0x10 ./src/LED_flash/flash.o
+ .debug_macro   0x00000ab6       0x5e ./src/LED_flash/flash.o
+ .debug_macro   0x00000b14       0x3b ./src/LED_flash/flash.o
+ .debug_macro   0x00000b4f       0x2d ./src/LED_flash/flash.o
+ .debug_macro   0x00000b7c       0x42 ./src/LED_flash/flash.o
+ .debug_macro   0x00000bbe      0xd39 ./src/LED_flash/flash.o
+ .debug_macro   0x000018f7     0x8bb0 ./src/LED_flash/flash.o
+ .debug_macro   0x0000a4a7      0x44f ./src/LED_flash/flash.o
+ .debug_macro   0x0000a8f6       0xb2 ./src/LED_flash/flash.o
+ .debug_macro   0x0000a9a8      0x477 ./src/LED_flash/flash.o
+ .debug_macro   0x0000ae1f       0xae ./src/LED_flash/flash.o
+ .debug_macro   0x0000aecd      0x41c ./src/LED_flash/flash.o
+ .debug_macro   0x0000b2e9      0x2bc ./src/LED_flash/flash.o
+ .debug_macro   0x0000b5a5      0x2bb ./src/LED_flash/flash.o
+ .debug_macro   0x0000b860       0x64 ./src/LED_flash/flash.o
+ .debug_macro   0x0000b8c4       0xe7 ./src/LED_flash/flash.o
+ .debug_macro   0x0000b9ab      0x62f ./src/LED_flash/flash.o
+ .debug_macro   0x0000bfda      0x57b ./src/LED_flash/flash.o
+ .debug_macro   0x0000c555      0x342 ./src/LED_flash/flash.o
+ .debug_macro   0x0000c897      0x36c ./src/LED_flash/flash.o
+ .debug_macro   0x0000cc03       0xf7 ./src/LED_flash/flash.o
+ .debug_macro   0x0000ccfa      0x73b ./src/LED_flash/flash.o
+ .debug_macro   0x0000d435      0x223 ./src/LED_flash/flash.o
+ .debug_macro   0x0000d658       0x34 ./src/LED_flash/flash.o
+ .debug_macro   0x0000d68c       0x82 ./src/LED_flash/flash.o
+ .debug_macro   0x0000d70e      0x144 ./src/LED_flash/flash.o
+ .debug_macro   0x0000d852       0xc3 ./src/LED_flash/flash.o
+ .debug_macro   0x0000d915       0x40 ./src/LED_flash/flash.o
+ .debug_macro   0x0000d955      0x3cf ./src/LED_flash/flash.o
+ .debug_macro   0x0000dd24      0x188 ./src/LED_flash/flash.o
+ .debug_macro   0x0000deac      0x149 ./src/LED_flash/flash.o
+ .debug_macro   0x0000dff5      0x279 ./src/LED_flash/flash.o
+ .debug_macro   0x0000e26e       0x35 ./src/LED_flash/flash.o
+ .debug_macro   0x0000e2a3      0x10b ./src/LED_flash/flash.o
+ .debug_macro   0x0000e3ae       0xb7 ./src/LED_flash/flash.o
+ .debug_macro   0x0000e465       0x12 ./src/LED_flash/flash.o
+ .debug_macro   0x0000e477       0x1f ./src/LED_flash/flash.o
+ .debug_macro   0x0000e496      0x34c ./src/LED_flash/flash.o
+ .debug_macro   0x0000e7e2       0x79 ./src/LED_flash/flash.o
+ .debug_macro   0x0000e85b       0x69 ./src/LED_flash/flash.o
+ .debug_macro   0x0000e8c4       0x10 ./src/LED_flash/flash.o
+ .debug_macro   0x0000e8d4      0x23e ./src/ParTest.o
+ .debug_macro   0x0000eb12      0x16d ./src/ParTest.o
+ .debug_macro   0x0000ec7f      0x20e ./src/ParTest.o
+ .debug_macro   0x0000ee8d       0x88 ./src/ParTest.o
+ .debug_macro   0x0000ef15      0x27b ./src/main.o
+ .debug_macro   0x0000f190       0x91 ./src/main.o
+ .debug_macro   0x0000f221       0xb0 ./src/main.o
+ .debug_macro   0x0000f2d1       0x7e ./src/main.o
+ .debug_macro   0x0000f34f      0x1c7 ./libs/StdPeriph/src/misc.o
+ .debug_macro   0x0000f516       0x7c ./libs/StdPeriph/src/misc.o
+ .debug_macro   0x0000f592      0x1c1 ./libs/StdPeriph/src/stm32f4xx_gpio.o
+ .debug_macro   0x0000f753      0x2b6 ./libs/StdPeriph/src/stm32f4xx_gpio.o
+ .debug_macro   0x0000fa09      0x28b ./libs/StdPeriph/src/stm32f4xx_rcc.o
+ .debug_macro   0x0000fc94      0x629 ./libs/StdPeriph/src/stm32f4xx_rcc.o
+ .debug_macro   0x000102bd       0xa6 ./libs/CMSIS/src/startup_cm.o
+ .debug_macro   0x00010363      0x1b7 ./libs/CMSIS/src/startup_stm32f4xx.o
+ .debug_macro   0x0001051a      0x1db ./libs/CMSIS/src/system_stm32f4xx.o
+ .debug_macro   0x000106f5       0x11 ./libs/CMSIS/src/vectors_stm32f4xx.o
+ .debug_macro   0x00010706      0x2b1 ./FreeRTOS/Source/portable/MemMang/heap_1.o
+ .debug_macro   0x000109b7      0x2cf ./FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+ .debug_macro   0x00010c86      0x290 ./FreeRTOS/Source/list.o
+ .debug_macro   0x00010f16      0x320 ./FreeRTOS/Source/queue.o
+ .debug_macro   0x00011236      0x283 ./FreeRTOS/Source/queue.o
+ .debug_macro   0x000114b9       0x10 ./FreeRTOS/Source/queue.o
+ .debug_macro   0x000114c9       0x35 ./FreeRTOS/Source/queue.o
+ .debug_macro   0x000114fe       0x1f ./FreeRTOS/Source/queue.o
+ .debug_macro   0x0001151d      0x363 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x00011880       0x17 ./FreeRTOS/Source/tasks.o
+ .debug_macro   0x00011897      0x2cd ./FreeRTOS/Source/timers.o
+ .debug_macro   0x00011b64      0x1c6 ./FreeRTOS/Settings/board/stm32f4_discovery.o
+ .debug_macro   0x00011d2a       0x82 ./FreeRTOS/Settings/board/stm32f4_discovery.o

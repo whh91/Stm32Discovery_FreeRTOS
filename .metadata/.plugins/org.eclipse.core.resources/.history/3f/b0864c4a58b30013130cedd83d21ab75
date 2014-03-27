@@ -1,0 +1,14 @@
+/*
+ * serial.c
+ *
+ *  Created on: Mar 23, 2014
+ *      Author: jerzy
+ */
+
+#include "serial.h"
+
+
+void vStartUart2SendTask( unsigned portBASE_TYPE uxPriority )
+{
+
+}

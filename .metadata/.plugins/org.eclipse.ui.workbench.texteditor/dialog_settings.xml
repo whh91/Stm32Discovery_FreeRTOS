@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="295" key="DIALOG_WIDTH"/>
-		<item value="546" key="DIALOG_Y_ORIGIN"/>
-		<item value="972" key="DIALOG_X_ORIGIN"/>
-		<item value="478" key="DIALOG_HEIGHT"/>
+		<item value="305" key="DIALOG_WIDTH"/>
+		<item value="310" key="DIALOG_Y_ORIGIN"/>
+		<item value="431" key="DIALOG_HEIGHT"/>
+		<item value="592" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="Enab" key="selection"/>
+		<item value="pxCreatedTask" key="selection"/>
 		<list key="findhistory">
-			<item value="ENAB"/>
-			<item value="ENA"/>
-			<item value="ENABLE"/>
-			<item value="TIM2_IRQHandler"/>
-			<item value="taskFIRST_CHECK_FOR_STACK_OVERFLOW"/>
-			<item value="xPortSysTickHandler"/>
-			<item value="TARGET"/>
-			<item value="SECONDARY_FLASH"/>
+			<item value="pxCreatedTask"/>
+			<item value="taskha"/>
+			<item value="uxPrio"/>
+			<item value="pcName"/>
+			<item value="vLEDFlashTask"/>
+			<item value="pvTaskCode"/>
+			<item value="TODO"/>
+			<item value="TOSO"/>
 		</list>
 		<list key="replacehistory">
 		</list>

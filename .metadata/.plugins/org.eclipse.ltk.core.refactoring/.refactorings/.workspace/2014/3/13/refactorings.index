@@ -1,1 +1,6 @@
 1395580727253	Delete resource 'FreeRTOS_Uart/Debug/FreeRTOS'
+1395611776795	Delete resource 'FreeRTOS_Uart/src/hardware'
+1395611847435	Delete resource 'FreeRTOS_Uart/src/hardware_setup/hardware_setup.c'
+1395611912606	Delete resource 'FreeRTOS_Uart/src/hardware_setup/hardware_setup.h'
+1395611934073	Delete resource 'FreeRTOS_Uart/src/hardware_setup/hardware.h'
+1395614013399	Delete resource 'FreeRTOS_Uart/src/hardware/usart2.'

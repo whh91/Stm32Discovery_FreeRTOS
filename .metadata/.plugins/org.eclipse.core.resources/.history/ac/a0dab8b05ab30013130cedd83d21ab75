@@ -1,0 +1,31 @@
+/*
+ * serial.c
+ *
+ *  Created on: Mar 23, 2014
+ *      Author: jerzy
+ */
+
+#include "FreeRTOS.h"
+#include "serial.h"
+
+#define uart2SendSTACK_SIZE		configMINIMAL_STACK_SIZE
+
+
+
+void vUart2SendTask( void *pvParameters );
+
+
+
+void vStartUart2SendTask( unsigned portBASE_TYPE uxPriority )
+{
+	signed portBASE_TYPE xLEDTask;
+
+	/* Spawn the task. */
+	xTaskCreate(vUart2SendTask, "uart2Send", uart2SendSTACK_SIZE, NULL, uxPriority, ( TaskHandle_t * ) NULL );
+}
+
+
+static void vUart2SendTask ( void *pvParameters )
+{
+
+}
